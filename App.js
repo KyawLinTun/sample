@@ -16,9 +16,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-
-
-const App: () => React$Node = () => {
+function App() {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -64,7 +62,7 @@ const App: () => React$Node = () => {
       </SafeAreaView>
     </>
   );
-};
+}
 
 const styles = StyleSheet.create({
   scrollView: {
